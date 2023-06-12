@@ -1,10 +1,12 @@
 import React from "react";
+import backgroundImage from "./Images/LOGO DARK.png";
 
 function Background() {
   return (
     <div>
       <img
-        src="/home/steve/Personal Projects/Portfolio/my-app/Images/maurits-bausenhart--zxeFLnmnkQ-unsplash.jpg"
+        style={{ width: "200px", height: "auto" }}
+        src={backgroundImage}
         alt="Background"
       />
     </div>
