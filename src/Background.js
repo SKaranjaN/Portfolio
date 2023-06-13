@@ -7,7 +7,7 @@ function Background() {
       <img
         style={{
           marginLeft: "-1000px",
-          marginTop: "-500px",
+          marginTop: "50px",
           width: "200px",
         }}
         src={backgroundImage}

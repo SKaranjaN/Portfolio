@@ -7,8 +7,8 @@ function Float() {
       <img
         style={{
           marginLeft: "300px",
-          width: "700px",
-          height: "auto",
+          marginTop: "-100px",
+          width: "900px",
           borderRadius: "30px",
         }}
         src={floating}
