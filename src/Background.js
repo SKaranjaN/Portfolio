@@ -5,7 +5,11 @@ function Background() {
   return (
     <div>
       <img
-        style={{ width: "200px", height: "auto" }}
+        style={{
+          marginLeft: "-1000px",
+          marginTop: "-500px",
+          width: "200px",
+        }}
         src={backgroundImage}
         alt="Background"
       />
