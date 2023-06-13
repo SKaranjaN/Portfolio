@@ -1,5 +1,5 @@
 import React from "react";
-import floating from "./Images/wepik-export-20230613131238rvTh.jpeg";
+import floating from "./Images/wepik-black-history-month-zoom-background-20230613135658BegG.jpeg";
 
 function Float() {
   return (
