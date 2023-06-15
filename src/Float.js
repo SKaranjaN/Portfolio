@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from "react";
 import image1 from "./Images/wepik-black-history-month-zoom-background-20230613135658BegG.jpeg";
 import image2 from "./Images/LOGO DARK.png";
+import image3 from "./Images/image (12).png";
+import image4 from "./Images/image (11).png";
+import image5 from "./Images/image (10).png";
+import image6 from "./Images/image (9).png";
+import image7 from "./Images/Banner 4.jpg";
 
 function Float() {
-  const images = [image1, image2];
+  const images = [image1, image2, image3, image4, image5, image6, image7];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
