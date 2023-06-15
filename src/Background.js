@@ -13,6 +13,8 @@ function Background() {
         src={backgroundImage}
         alt="Background"
       />
+      {/* /line element */}
+      <hr style={{ borderTop: "1px solid white" }} />
     </div>
   );
 }
