@@ -2,7 +2,7 @@ import "./App.css";
 import Background from "./Background";
 import Float from "./Float";
 import LinkBio from "./LinkBio";
-import "@fortawesome/fontawesome-free/css/all.css";
+import Bio from "./Bio";
 
 function App() {
   return (
@@ -10,6 +10,10 @@ function App() {
       <header className="App-header">
         <Background />
         <Float />
+        <br />
+        <br />
+        <Bio />
+        <br />
         <LinkBio />
       </header>
     </div>

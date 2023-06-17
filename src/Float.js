@@ -27,7 +27,7 @@ function Float() {
       <img
         style={{
           marginLeft: "300px",
-          marginTop: "10px",
+          marginTop: "-70px",
           width: "900px",
           borderRadius: "30px",
         }}

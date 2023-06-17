@@ -3,11 +3,11 @@ import backgroundImage from "./Images/LOGO DARK.png";
 
 function Background() {
   return (
-    <div style={{ position: "fixed", zIndex: 1 }}>
+    <div style={{ zIndex: 1 }}>
       <img
         style={{
           marginLeft: "-1000px",
-          marginTop: "-200px",
+          marginTop: "40px",
           width: "200px",
         }}
         src={backgroundImage}

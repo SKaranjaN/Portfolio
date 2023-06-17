@@ -9,7 +9,6 @@ function LinkBio() {
   return (
     <div
       style={{
-        position: "fixed",
         bottom: "15px",
         fontFamily: "Serif",
         fontSize: "18px",
