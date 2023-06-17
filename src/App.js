@@ -1,6 +1,7 @@
 import "./App.css";
 import Background from "./Background";
 import Float from "./Float";
+import LinkBio from "./LinkBio";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <Background />
         <Float />
+        <LinkBio />
       </header>
     </div>
   );
