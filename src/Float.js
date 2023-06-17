@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import image1 from "./Images/Bio.jpeg";
+import image1 from "./Images/Data3.jpeg";
 import image3 from "./Images/image (12).png";
 import image4 from "./Images/image (11).png";
 import image5 from "./Images/image (10).png";
