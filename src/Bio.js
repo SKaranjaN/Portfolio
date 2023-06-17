@@ -13,6 +13,14 @@ function Bio() {
 
   return (
     <div style={bioStyle}>
+      <p
+        style={{
+          marginLeft: "100px",
+          fontFamily: "Allura, cursive",
+        }}
+      >
+        "Simplicity is Essence"
+      </p>
       <p>
         I'm a dynamic software engineer proficient in JavaScript, HTML, CSS,
         React, Python, Flask, and SQL. With expertise in both front-end and
