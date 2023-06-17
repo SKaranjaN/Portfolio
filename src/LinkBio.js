@@ -1,4 +1,6 @@
 import React from "react";
+import githubIcon from "./Images/github-6-512.png";
+import emailIcon from "./Images/Gmail_Logo_White_512px.png";
 
 function LinkBio() {
   const githubLink = "https://github.com/skaranjan";
@@ -8,16 +10,28 @@ function LinkBio() {
     <div
       style={{
         position: "fixed",
-        bottom: "18px",
+        bottom: "15px",
         fontFamily: "Serif",
         fontSize: "18px",
       }}
     >
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        GitHub
+        <img
+          src={githubIcon}
+          alt="GitHub Icon"
+          style={{ width: "24px", height: "24px" }}
+        />
       </a>
-      <span> | </span>
-      <a href={`mailto:${email}`}>{email}</a>
+
+      <span style={{ color: "white" }}> | </span>
+
+      <a href={`mailto:${email}`}>
+        <img
+          src={emailIcon}
+          alt="Email Icon"
+          style={{ width: "24px", height: "24px" }}
+        />
+      </a>
     </div>
   );
 }
