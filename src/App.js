@@ -3,6 +3,7 @@ import Background from "./Background";
 import Float from "./Float";
 import LinkBio from "./LinkBio";
 import Bio from "./Bio";
+import Works from "./Works";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Background />
         <Float />
         <br />
+        <Works />
         <br />
         <Bio />
         <br />

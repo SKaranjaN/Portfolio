@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
   const bioStyle = {
-    fontFamily: "Georgia",
+    fontFamily: "Quicksand, Light",
     fontSize: "20px",
     color: "#fff",
     textAlign: "center",
